@@ -98,3 +98,9 @@ exercises.c:103:24: error: ‘false’ undeclared (first use in this function)
 exercises.c:103:24: note: ‘false’ is defined in header ‘<stdbool.h>’; did you forget to ‘#include <stdbool.h>’?
 Compilation failed
 64e378d
+Thu 14 Mar 2024 09:06:21 PM UTC: 
+ exercises.c | 1 +
+ 1 file changed, 1 insertion(+)
+ tests:  0|2
+total_score: 50/70
+7d4c6f6
