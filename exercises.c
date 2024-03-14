@@ -11,9 +11,7 @@ y su tamaño, y devuelva el valor más grande del arreglo.
 */
 int findMax(int arr[], int size) 
 {
-  int max = arr[0];
-  
-  return 0; 
+return 0; 
 }
 
 /*
