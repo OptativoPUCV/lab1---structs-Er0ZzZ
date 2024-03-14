@@ -65,3 +65,9 @@ exercises.c:72:3: error: ‘totalSize’ undeclared (first use in this function)
 exercises.c:72:3: note: each undeclared identifier is reported only once for each function it appears in
 Compilation failed
 6d0fc1f
+Thu 14 Mar 2024 08:54:15 PM UTC: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  0|3
+total_score: 40/70
+5d22d04
