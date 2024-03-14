@@ -71,3 +71,30 @@ Thu 14 Mar 2024 08:54:15 PM UTC:
  tests:  0|3
 total_score: 40/70
 5d22d04
+Thu 14 Mar 2024 09:06:01 PM UTC: 
+ exercises.c | 19 ++++++++++++++++++-
+ 1 file changed, 18 insertions(+), 1 deletion(-)
+In file included from test.c:1:
+exercises.c: In function ‘checkSorted’:
+exercises.c:98:3: error: unknown type name ‘bool’
+   98 |   bool esAscendente = true;
+      |   ^~~~
+exercises.c:6:1: note: ‘bool’ is defined in header ‘<stdbool.h>’; did you forget to ‘#include <stdbool.h>’?
+    5 | #include <string.h>
+  +++ |+#include <stdbool.h>
+    6 | 
+exercises.c:98:23: error: ‘true’ undeclared (first use in this function)
+   98 |   bool esAscendente = true;
+      |                       ^~~~
+exercises.c:98:23: note: ‘true’ is defined in header ‘<stdbool.h>’; did you forget to ‘#include <stdbool.h>’?
+exercises.c:98:23: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:99:3: error: unknown type name ‘bool’
+   99 |   bool esDescendente = true;
+      |   ^~~~
+exercises.c:99:3: note: ‘bool’ is defined in header ‘<stdbool.h>’; did you forget to ‘#include <stdbool.h>’?
+exercises.c:103:24: error: ‘false’ undeclared (first use in this function)
+  103 |         esAscendente = false;
+      |                        ^~~~~
+exercises.c:103:24: note: ‘false’ is defined in header ‘<stdbool.h>’; did you forget to ‘#include <stdbool.h>’?
+Compilation failed
+64e378d
